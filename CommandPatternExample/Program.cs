@@ -23,6 +23,7 @@ namespace CommandPatternExample
             girl.SetOrder(bakeMuttonCommand2);
             girl.SetOrder(bakeChickenWingCommand1);
 
+            // 点餐完成 通知厨房
             girl.Notify();
 
             Console.Read();

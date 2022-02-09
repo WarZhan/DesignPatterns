@@ -16,7 +16,7 @@ namespace CommandPatternExample
         {
             if (typeof(BakeChickenWingCommand) == command.GetType())
             {
-                Console.WriteLine("服务员：鸡翅没有了，轻点其他的！");
+                Console.WriteLine("服务员：鸡翅没有了，请点其他的！");
             }
             else
             {

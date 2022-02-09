@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CommandPattern
+﻿namespace CommandPattern
 {
-    class Invoker
+    /// <summary>
+    /// 请求者
+    /// </summary>
+    public class Invoker
     {
         private Command command;
 
