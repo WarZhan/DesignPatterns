@@ -1,5 +1,8 @@
 ﻿# DesignPatterns
 # 设计模式
+## 一、工厂模式
+
+
 ## 命令模式
 ![命令模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/13_01.png)  
 将一个请求封装为一个对象，从而可用不同的请求对客户进行参数化，对请求进行排队或记录请求日志，以及支持可撤销的操作。命令模式把请求对象与执行对象分割开
