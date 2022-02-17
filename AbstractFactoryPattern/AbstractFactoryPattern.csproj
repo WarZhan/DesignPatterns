@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6CABD472-9BCE-4B55-B0AB-E058468300D8}</ProjectGuid>
+    <ProjectGuid>{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FactoryMethodPattern</RootNamespace>
-    <AssemblyName>FactoryMethodPattern</AssemblyName>
+    <RootNamespace>AbstractFactoryPattern</RootNamespace>
+    <AssemblyName>AbstractFactoryPattern</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,12 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatabaseLogFactory.cs" />
-    <Compile Include="DatabaseLog.cs" />
-    <Compile Include="FileLog.cs" />
-    <Compile Include="FileLogFactory.cs" />
-    <Compile Include="Log.cs" />
-    <Compile Include="ILogFactory.cs" />
+    <Compile Include="AbstractFactory.cs" />
+    <Compile Include="AbstractProductHotdog.cs" />
+    <Compile Include="AbstractProductMilk.cs" />
+    <Compile Include="ConcreteFactoryCN.cs" />
+    <Compile Include="ConcreteFactoryUS.cs" />
+    <Compile Include="HotdogCN.cs" />
+    <Compile Include="HotdogUS.cs" />
+    <Compile Include="MilkCN.cs" />
+    <Compile Include="MilkUS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

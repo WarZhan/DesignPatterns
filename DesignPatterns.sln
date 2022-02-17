@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{6CABD472-9BCE-4B55-B0AB-E058468300D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{6CABD472-9BCE-4B55-B0AB-E058468300D8}.Release|x64.Build.0 = Release|Any CPU
 		{6CABD472-9BCE-4B55-B0AB-E058468300D8}.Release|x86.ActiveCfg = Release|Any CPU
 		{6CABD472-9BCE-4B55-B0AB-E058468300D8}.Release|x86.Build.0 = Release|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Debug|x64.Build.0 = Debug|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Debug|x86.Build.0 = Debug|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Release|x64.ActiveCfg = Release|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Release|x64.Build.0 = Release|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Release|x86.ActiveCfg = Release|Any CPU
+		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

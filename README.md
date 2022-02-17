@@ -1,6 +1,12 @@
 ﻿# DesignPatterns
 # 设计模式
-## 一、工厂模式
+## 一、简单工厂模式
+项目：FactoryPattern
+## 二、工厂方法模式
+项目：FactoryMethodPattern
+## 三、抽象工厂模式
+项目：AbstractFactoryPattern
+
 
 
 ## 命令模式
