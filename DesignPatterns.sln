@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "Fac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{5DF78390-54CE-4DD4-8523-D6F77D852E85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Release|x64.Build.0 = Release|Any CPU
 		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Release|x86.ActiveCfg = Release|Any CPU
 		{3BC833D4-4599-4071-87D8-5A1C0CD87DCF}.Release|x86.Build.0 = Release|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Debug|x64.Build.0 = Debug|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Debug|x86.Build.0 = Debug|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Release|x64.ActiveCfg = Release|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Release|x64.Build.0 = Release|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Release|x86.ActiveCfg = Release|Any CPU
+		{5DF78390-54CE-4DD4-8523-D6F77D852E85}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
