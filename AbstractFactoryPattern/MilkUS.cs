@@ -9,7 +9,7 @@ namespace AbstractFactoryPattern
     {
         public override void Drink()
         {
-            Console.WriteLine("Call MilkCN.Drink()");
+            Console.WriteLine("Call MilkUS.Drink()");
         }
     }
 }
