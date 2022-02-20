@@ -19,10 +19,10 @@
 
 ## 四、单例模式
 源码：[SingletonPattern](https://github.com/WarZhan/DesignPatterns/tree/master/SingletonPattern)  
-博文：[https://blog.csdn.net/zhanxi1992/article/details/123030569](https://blog.csdn.net/zhanxi1992/article/details/123030569)
+博文：[https://blog.csdn.net/zhanxi1992/article/details/123030569](https://blog.csdn.net/zhanxi1992/article/details/123030569)  
 ![单例模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.png)
 
-## 命令模式
+## X、命令模式
 ![命令模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/13_01.png)  
 将一个请求封装为一个对象，从而可用不同的请求对客户进行参数化，对请求进行排队或记录请求日志，以及支持可撤销的操作。命令模式把请求对象与执行对象分割开
 1. 它能较容易设计一个命令队列
