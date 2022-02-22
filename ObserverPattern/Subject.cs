@@ -9,6 +9,15 @@ namespace ObserverPattern
     {
         private List<Observer> _listObserver = new List<Observer>();
 
+        // 通知者（主题）的状态
+        protected string _subjectState;
+
+        public string SubjectState
+        {
+            get { return _subjectState; }
+            set { _subjectState = value; }
+        }
+
         /// <summary>
         /// 增加 观察者
         /// </summary>

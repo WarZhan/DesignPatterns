@@ -25,6 +25,8 @@ namespace ObserverPattern
             subject.SubjectState = "Run";
             subject.Notify();
 
+            Console.WriteLine("-------------------------------------");
+
             subject.Detach(observerB);
             subject.SubjectState = "Eat";
             subject.Notify();

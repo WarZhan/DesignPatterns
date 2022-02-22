@@ -13,9 +13,9 @@ namespace ObserverPattern
     {
         private string _name;
         private string _observerState;
-        private ConcreteSubject _subject = null;
+        private Subject _subject = null;
 
-        public ConcreteObserver(string name, ConcreteSubject subject)
+        public ConcreteObserver(string name, Subject subject)
         {
             _name = name;
             _subject = subject;
