@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPattern", "MVCPattern\MV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{29B01B52-1E17-4B37-8479-3AF5FD87A958}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventListenerPattern", "EventListenerPattern\EventListenerPattern.csproj", "{741374D8-6587-43D0-BB93-A803F5DA0FF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +141,18 @@ Global
 		{29B01B52-1E17-4B37-8479-3AF5FD87A958}.Release|x64.Build.0 = Release|Any CPU
 		{29B01B52-1E17-4B37-8479-3AF5FD87A958}.Release|x86.ActiveCfg = Release|Any CPU
 		{29B01B52-1E17-4B37-8479-3AF5FD87A958}.Release|x86.Build.0 = Release|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Debug|x64.Build.0 = Debug|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Debug|x86.Build.0 = Debug|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Release|x64.ActiveCfg = Release|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Release|x64.Build.0 = Release|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Release|x86.ActiveCfg = Release|Any CPU
+		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
