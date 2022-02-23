@@ -34,14 +34,14 @@ namespace EventListenerPattern
         {
             Console.WriteLine("PackagerManager 开始打包产品");
             Console.WriteLine("PackagerManager 打包完成");
-            Event newEvent = new Event(_instance, EventName.PACKAGE_PRODUCT_FINISH);
+            Event newEvent = new Event(Instance, EventName.PACKAGE_PRODUCT_FINISH);
             EventManager.Instance.SendMessage(newEvent);
         }
 
         private void _CreateProductFinish(object[] args)
         {
-            Console.WriteLine("PackagerManager 收到来之 CreaterManager 的 "
-                + EventName.CREATE_PRODUCT_FINISH + "消息");
+            Console.WriteLine("PackagerManager 收到来自 CreaterManager 的 "
+                + EventName.CREATE_PRODUCT_FINISH + " 消息");
 
             PackageProduct();
         }

@@ -12,14 +12,17 @@ namespace EventListenerPattern
             CreaterManager.Instance.Init(); // 生产者
             PackagerManager.Instance.Init(); // 打包者
 
-            // 启动线程
-            Timer timer = new Timer(); // 生成一个定时刷新器
-            Thread thread = new Thread(new ThreadStart(timer.EventManagerUpdate));
-            thread.Start();
+            // 启动计时器 每 100 毫秒 更新一次
+            Timer threadTimer = new Timer(_Update, null, 0, 100);
 
             CreaterManager.Instance.CreateProduct(); // 开始生产
 
             Console.ReadKey();
+        }
+
+        private static void _Update(object state)
+        {
+            EventManager.Instance.Update();
         }
     }
 }

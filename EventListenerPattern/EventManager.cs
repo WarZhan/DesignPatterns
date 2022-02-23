@@ -75,6 +75,7 @@ namespace EventListenerPattern
 
         private void _TriggerEvent(Event eventData)
         {
+            // 这里从其他线程调用的需要转换下
             List<EventListener> list = _GetEventListenerList(eventData.Context, eventData.Name);
             if (null != list)
             {
