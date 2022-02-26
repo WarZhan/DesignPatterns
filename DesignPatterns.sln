@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "Observer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventListenerPattern", "EventListenerPattern\EventListenerPattern.csproj", "{741374D8-6587-43D0-BB93-A803F5DA0FF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{94D082CF-822C-492E-964D-42EDA92A6D11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,18 @@ Global
 		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Release|x64.Build.0 = Release|Any CPU
 		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Release|x86.ActiveCfg = Release|Any CPU
 		{741374D8-6587-43D0-BB93-A803F5DA0FF3}.Release|x86.Build.0 = Release|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Debug|x64.Build.0 = Debug|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Debug|x86.Build.0 = Debug|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Release|x64.ActiveCfg = Release|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Release|x64.Build.0 = Release|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Release|x86.ActiveCfg = Release|Any CPU
+		{94D082CF-822C-492E-964D-42EDA92A6D11}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
