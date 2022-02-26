@@ -4,23 +4,45 @@
 
 ## 一、简单工厂模式
 源码：[FactoryPattern](https://github.com/WarZhan/DesignPatterns/tree/master/FactoryPattern)  
-博文：[https://blog.csdn.net/zhanxi1992/article/details/123022083](https://blog.csdn.net/zhanxi1992/article/details/123022083)
+博文：[https://blog.csdn.net/zhanxi1992/article/details/123022083](https://blog.csdn.net/zhanxi1992/article/details/123022083)  
 ![简单工厂模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.png)
 
 ## 二、工厂方法模式
 源码：[FactoryMethodPattern](https://github.com/WarZhan/DesignPatterns/tree/master/FactoryMethodPattern)  
-博文：[https://blog.csdn.net/zhanxi1992/article/details/123022459](https://blog.csdn.net/zhanxi1992/article/details/123022459)
+博文：[https://blog.csdn.net/zhanxi1992/article/details/123022459](https://blog.csdn.net/zhanxi1992/article/details/123022459)  
 ![工厂方法模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.png)
 
 ## 三、抽象工厂模式
 源码：[AbstractFactoryPattern](https://github.com/WarZhan/DesignPatterns/tree/master/AbstractFactoryPattern)  
-博文：[https://blog.csdn.net/zhanxi1992/article/details/123029805](https://blog.csdn.net/zhanxi1992/article/details/123029805)
+博文：[https://blog.csdn.net/zhanxi1992/article/details/123029805](https://blog.csdn.net/zhanxi1992/article/details/123029805)  
 ![抽象工厂模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.png)
 
 ## 四、单例模式
 源码：[SingletonPattern](https://github.com/WarZhan/DesignPatterns/tree/master/SingletonPattern)  
 博文：[https://blog.csdn.net/zhanxi1992/article/details/123030569](https://blog.csdn.net/zhanxi1992/article/details/123030569)  
 ![单例模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.png)
+
+## 五、MVC 模式
+源码：[MVCPattern](https://github.com/WarZhan/DesignPatterns/tree/master/MVCPattern)  
+博文：[https://blog.csdn.net/zhanxi1992/article/details/123080793](https://blog.csdn.net/zhanxi1992/article/details/123080793)  
+![MVC模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/MVC%E6%A8%A1%E5%BC%8F.png)  
+
+## 六、观察者模式
+源码：[ObserverPattern](https://github.com/WarZhan/DesignPatterns/tree/master/ObserverPattern)  
+博文：[https://blog.csdn.net/zhanxi1992/article/details/123124367](https://blog.csdn.net/zhanxi1992/article/details/123124367)  
+![观察者模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.png)  
+
+## 七、事件监听模式
+源码：[EventListenerPattern](https://github.com/WarZhan/DesignPatterns/tree/master/EventListenerPattern)  
+博文：[https://blog.csdn.net/zhanxi1992/article/details/123152019](https://blog.csdn.net/zhanxi1992/article/details/123152019)  
+![事件监听模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.png)  
+
+## 八、代理模式
+源码：[ProxyPattern](https://github.com/WarZhan/DesignPatterns/tree/master/ProxyPattern)  
+博文：[https://blog.csdn.net/zhanxi1992/article/details/123156825](https://blog.csdn.net/zhanxi1992/article/details/123156825)  
+![代理模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.png)  
+
+
 
 ## X、命令模式
 ![命令模式](https://github.com/WarZhan/DesignPatterns/blob/master/Image/13_01.png)  
